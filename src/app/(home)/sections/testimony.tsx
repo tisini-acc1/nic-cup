@@ -10,7 +10,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export const TestimonySection = () => {
   return (
-    <section className="w-full h-auto flex items-center justify-center flex-col lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4 overflow-hidden">
+    <section
+      id="testimony"
+      className="w-full h-auto flex items-center justify-center flex-col lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4 overflow-hidden"
+    >
       <h6 className="text-lg font-medium flex items-center gap-x-2 mb-6">
         Testimonies
       </h6>
