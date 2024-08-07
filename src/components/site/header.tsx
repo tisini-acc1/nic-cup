@@ -8,6 +8,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 export const SiteHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [headerActive, setHeaderActive] = useState(false);
 
   return (
     <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 sticky top-0 z-50">
@@ -23,6 +24,7 @@ export const SiteHeader = () => {
             spy={true}
             offset={-100}
             smooth={true}
+            activeClass="active"
             className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px]"
           >
             {menu.name}
@@ -61,6 +63,7 @@ export const SiteHeader = () => {
               spy={true}
               offset={-100}
               smooth={true}
+              activeClass="active"
               className="text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-lime-400 hover:text-black text-center w-full"
             >
               {menu.name}

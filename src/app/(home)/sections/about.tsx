@@ -8,9 +8,9 @@ export const AboutSection = () => {
     >
       <div className="flex-1 lg:-w-[38%] md:w-full sm:w-full w-full h-auto relative overflow-hidden rounded-lg">
         <Image
-          src={"/about.jpeg"}
+          src={"/hero.jpg"}
           alt="about"
-          width={0}
+          width={800}
           height={0}
           className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh] object-cover"
         />

@@ -16,14 +16,8 @@ export const Footer = () => {
     <footer id="contacts" className="py-4 mt-4 bg-black text-white">
       <div className="max-w-[1400px] flex gap-4 flex-col md:flex-row items-center justify-between mx-auto py-4 border-b-2 border-gray-400">
         <div className="">
-          <Link className="" href={"/"}>
-            <Image
-              src="/nic.png"
-              alt="logo"
-              width={0}
-              height={0}
-              className="w-62 h-[150px]"
-            />
+          <Link className="flex items-center justify-center mb-4" href={"/"}>
+            <Image src="/nic.png" alt="logo" width={110} height={100} />
           </Link>
 
           <div className="flex items-center gap-4 flex-wrap">

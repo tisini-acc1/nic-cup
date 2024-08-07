@@ -40,7 +40,7 @@
 }
 
 .active {
-  @apply text-accent-green;
+  @apply text-black;
 }
 
 /* swiper pagination styles */
