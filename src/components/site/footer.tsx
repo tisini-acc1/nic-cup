@@ -14,7 +14,7 @@ export const Footer = () => {
 
   return (
     <footer id="contacts" className="py-4 mt-4 bg-black text-white">
-      <div className="max-w-[1400px] flex gap-4 flex-col md:flex-row items-center justify-between mx-auto py-4 border-b-2 border-gray-400">
+      <div className="w-[90%] flex gap-4 flex-col md:flex-row items-center justify-between mx-auto py-4 border-b-2 border-gray-400">
         <div className="">
           <Link className="flex items-center justify-center mb-4" href={"/"}>
             <Image src="/nic.png" alt="logo" width={110} height={100} />
