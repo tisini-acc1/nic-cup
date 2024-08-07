@@ -11,7 +11,7 @@ export const SiteHeader = () => {
   const [headerActive, setHeaderActive] = useState(false);
 
   return (
-    <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 sticky top-0 z-50">
+    <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0 z-50">
       <Link href={"/"}>
         <Image src={"/nic.png"} alt="NIC" width={80} height={80} />
       </Link>
