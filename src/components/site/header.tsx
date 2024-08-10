@@ -32,7 +32,7 @@ export const SiteHeader = () => {
         ))}
 
         <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden">
-          Fixtures
+          <Link href={"/fixtures"}>Fixtures</Link>
         </button>
       </div>
 
