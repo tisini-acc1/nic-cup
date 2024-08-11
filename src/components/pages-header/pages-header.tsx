@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export const PagesHeader = () => {
   return (
-    <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0 z-50">
+    <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0">
       <Link href={"/"}>
         <Image src={"/nic.png"} alt="NIC" width={80} height={80} />
       </Link>
 
       <Link
         href={"/"}
-        className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px]"
+        className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px] md:text-[35px]"
       >
         Nairobi International Cup
       </Link>

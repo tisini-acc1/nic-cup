@@ -15,10 +15,10 @@ export const FixtureCard = ({ fixture }: { fixture: Fixture }) => {
 
         <div className="col-span-2 flex items-center justify-center">
           {fixture.game_status === "notstarted" ? (
-            fixture.minute === "" ? (
-              <div className="animate-spin-slow">⌛</div>
+            fixture.matchtime !== "" ? (
+              <div>{fixture.matchtime}</div>
             ) : (
-              <div>{fixture.minute}</div>
+              <div className="animate-spin-slow">⌛</div>
             )
           ) : (
             <div

@@ -18,15 +18,15 @@ const FixturesPage = async () => {
   // console.log(fixtures);
 
   return (
-    <main className="pt-28 px-2">
+    <main className="md:pt-28 pt-24 md:px-2">
       <FixturesHeader />
 
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 md:col-span-8 lg:col-span-8">
-          {/* <Fixtures fix={fixtures} /> */}
-          <div className="w-full h-[500px] flex items-center justify-center border border-black">
+          <Fixtures fix={fixtures} />
+          {/* <div className="w-full h-[500px] flex items-center justify-center border border-black">
             No Matches Yet!
-          </div>
+          </div> */}
         </div>
 
         <div className="col-span-12 md:col-span-4 lg:col-span-4">

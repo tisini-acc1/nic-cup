@@ -1,37 +1,24 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FixtureCard } from "./fix-card";
 import { GroupedFixtures } from "../../../../../types/fixture";
 
+const DATES = ["2024-08-15", "2024-08-16", "2024-08-17", "2024-08-18"];
+
 export const Fixtures = ({ fix }: { fix: GroupedFixtures }) => {
   const [activeTab, setActiveTab] = useState(1);
+  const [date, setDate] = useState(DATES[0]);
+  const [category, setCategory] = useState("U7");
 
-  const tabs = ["Boys", "Girls"];
+  const fixtures = fix[date] && fix[date][category] ? fix[date][category] : [];
 
-  //   const fixtures = fix[date] && fix[date][category] ? fix[date][category] : [];
-  const fixtures =
-    fix["2024-08-07"] && fix["2024-08-07"]["2023"]
-      ? fix["2024-08-07"]["2023"]
-      : [];
+  // useEffect(() => {
+  //   const category = Object.
+  // }, [fixtures]);
 
   return (
     <section className="">
-      {/* Categories Tabs */}
-      <div className="flex overflow-x-auto gap-1 bg-sky-300 p-1 rounded-md">
-        {tabs.map((tab, idx) => (
-          <button
-            key={idx}
-            className={`p-2 md:p-4 rounded-lg text-gray-700 text-base font-bold flex-grow w-80 hover:bg-gray-300 hover:bg-opacity-40 ${
-              activeTab === idx ? "bg-sky-500" : ""
-            }`}
-            onClick={() => setActiveTab(idx)}
-          >
-            {tab}
-          </button>
-        ))}
-      </div>
-
       <div className="bg-gray-50">
         {fixtures.length === 0 ? (
           <div className="flex items-center justify-center h-96">
