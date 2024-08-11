@@ -32,9 +32,7 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${oswald.variable} w-full max-w-[1920px] mx-auto bg-white`}
       >
-        <SiteHeader />
         {children}
-        <Footer />
       </body>
     </html>
   );
