@@ -25,3 +25,15 @@ export type Fixture = {
   matchtime: string;
   pitchname: string;
 };
+
+export type GroupByDate = {
+  [date: string]: Fixture[];
+};
+
+export type GroupedFixtures = {
+  [date: string]: {
+    [category: string]: {
+      [group: string]: Fixture[];
+    };
+  };
+};

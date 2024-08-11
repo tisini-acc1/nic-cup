@@ -12,7 +12,7 @@ export const PagesHeader = () => {
         href={"/"}
         className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px]"
       >
-        Home
+        Nairobi International Cup
       </Link>
 
       <Link href={"/"}>
