@@ -90,10 +90,10 @@ const socials = [
 ];
 
 const contacts = [
-  { icon: FaPhoneAlt, contact: "+254 000 000000,  +254 000 000000" },
-  { icon: FaWhatsapp, contact: "+254 000 000000,  +47 000 000000" },
+  { icon: FaPhoneAlt, contact: "+254 719 422235, +254 790 659116" },
+  { icon: FaPhoneAlt, contact: "+254 796 726098,  0111 931049" },
   {
     icon: MdEmail,
-    contact: "info@nic.com",
+    contact: "nairobiinternationalcup@gmail.com",
   },
 ];
