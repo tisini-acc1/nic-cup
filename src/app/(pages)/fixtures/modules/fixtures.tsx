@@ -6,17 +6,35 @@ import { GroupedFixtures } from "../../../../../types/fixture";
 
 const DATES = ["2024-08-15", "2024-08-16", "2024-08-17", "2024-08-18"];
 
-export const Fixtures = ({ fix }: { fix: GroupedFixtures }) => {
+const categories = [
+  "U7",
+  "U9",
+  "U11",
+  "U13",
+  "U15 Boys",
+  "U15 Girls",
+  "U17Boys",
+  "U17 Girls",
+  "U20",
+];
+
+export const Fixtures = ({
+  fix,
+  cat,
+}: {
+  fix: GroupedFixtures;
+  cat: number;
+}) => {
   const [activeTab, setActiveTab] = useState(1);
   const [date, setDate] = useState(DATES[0]);
-  const [category, setCategory] = useState("U7");
 
-  const fixtures = fix[date] && fix[date][category] ? fix[date][category] : [];
+  const fixtures =
+    fix[date] && fix[date][categories[cat]] ? fix[date][categories[cat]] : [];
 
   // useEffect(() => {
   //   const category = Object.
   // }, [fixtures]);
-
+  console.log(categories[cat]);
   return (
     <section className="">
       <div className="bg-gray-50">

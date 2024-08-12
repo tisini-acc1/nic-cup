@@ -1,11 +1,18 @@
 "use client";
 
-import { useState } from "react";
+type HeaderProps = {
+  activeTab: number;
+  activeCat: number;
+  setActiveTab: (tab: number) => void;
+  setActiveCat: (cat: number) => void;
+};
 
-export const FixturesHeader = () => {
-  const [activeTab, setActiveTab] = useState(1);
-  const [activeCat, setActiveCat] = useState(1);
-
+export const FixturesHeader: React.FC<HeaderProps> = ({
+  activeTab,
+  activeCat,
+  setActiveTab,
+  setActiveCat,
+}) => {
   const tabs = ["15 Aug", "16 Aug", "17 Aug", "18 Aug"];
 
   const categories = [
@@ -19,6 +26,8 @@ export const FixturesHeader = () => {
     "U17 Girls",
     "U20",
   ];
+
+  // console.log(activeCat);
 
   return (
     <header>
