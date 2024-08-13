@@ -1,10 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { FixtureCard } from "./fix-card";
 import { GroupedFixtures } from "../../../../../types/fixture";
-
-const DATES = ["2024-08-15", "2024-08-16", "2024-08-17", "2024-08-18"];
+import { useAppContext } from "@/context";
 
 const categories = [
   "U7",
@@ -13,28 +11,21 @@ const categories = [
   "U13",
   "U15 Boys",
   "U15 Girls",
-  "U17Boys",
+  "U17 Boys",
   "U17 Girls",
   "U20",
 ];
 
-export const Fixtures = ({
-  fix,
-  cat,
-}: {
-  fix: GroupedFixtures;
-  cat: number;
-}) => {
-  const [activeTab, setActiveTab] = useState(1);
-  const [date, setDate] = useState(DATES[0]);
+export const Fixtures = ({ fix }: { fix: GroupedFixtures }) => {
+  const { activeCat, activeTab, DATES } = useAppContext();
+
+  const date = DATES[activeTab];
 
   const fixtures =
-    fix[date] && fix[date][categories[cat]] ? fix[date][categories[cat]] : [];
+    fix[date] && fix[date][categories[activeCat]]
+      ? fix[date][categories[activeCat]]
+      : [];
 
-  // useEffect(() => {
-  //   const category = Object.
-  // }, [fixtures]);
-  console.log(categories[cat]);
   return (
     <section className="">
       <div className="bg-gray-50">

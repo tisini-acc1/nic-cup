@@ -1,18 +1,10 @@
 "use client";
 
-type HeaderProps = {
-  activeTab: number;
-  activeCat: number;
-  setActiveTab: (tab: number) => void;
-  setActiveCat: (cat: number) => void;
-};
+import { useAppContext } from "@/context";
 
-export const FixturesHeader: React.FC<HeaderProps> = ({
-  activeTab,
-  activeCat,
-  setActiveTab,
-  setActiveCat,
-}) => {
+export const FixturesHeader = () => {
+  const { activeTab, activeCat, setActiveCat, setActiveTab } = useAppContext();
+
   const tabs = ["15 Aug", "16 Aug", "17 Aug", "18 Aug"];
 
   const categories = [
@@ -27,7 +19,7 @@ export const FixturesHeader: React.FC<HeaderProps> = ({
     "U20",
   ];
 
-  // console.log(activeCat);
+  // console.log(activeTab);
 
   return (
     <header>

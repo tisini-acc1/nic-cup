@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Oswald } from "next/font/google";
 
 import "./globals.css";
-import { Footer } from "@/components/site/footer";
-import { SiteHeader } from "@/components/site/header";
+import { AppWrapper } from "@/context";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -32,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${oswald.variable} w-full max-w-[1920px] mx-auto bg-white`}
       >
-        {children}
+        <AppWrapper>{children}</AppWrapper>
       </body>
     </html>
   );
