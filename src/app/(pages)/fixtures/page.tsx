@@ -15,7 +15,7 @@ const FixturesPage = async () => {
   const data = await fixtureData;
   const fixtures = GroupFixtures(data);
   // console.log(data);
-  // console.log(fixtures);
+  console.log(fixtures);
 
   return (
     <main className="md:pt-28 pt-24 md:px-2">
