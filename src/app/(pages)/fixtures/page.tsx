@@ -8,14 +8,14 @@ import { getAllFixtures } from "@/lib/data/fetch-fixtures";
 
 const FixturesPage = async () => {
   const fixtureData: Promise<Fixture[]> = getAllFixtures();
-  const scorersData = getTopScorers();
+  const scorersData = getTopScorers("1");
 
   const scorers = await scorersData;
 
   const data = await fixtureData;
   const fixtures = GroupFixtures(data);
-  // console.log(data);
-  console.log(fixtures);
+  console.log(scorers);
+  // console.log(fixtures);
 
   return (
     <main className="md:pt-28 pt-24 md:px-2">

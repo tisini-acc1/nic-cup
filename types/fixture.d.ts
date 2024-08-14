@@ -37,3 +37,11 @@ export type GroupedFixtures = {
     };
   };
 };
+
+export type Player = {
+  tot: string;
+  name: string;
+  pname: string;
+};
+
+export type Scores = Player[];
