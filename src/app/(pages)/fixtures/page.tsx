@@ -18,7 +18,7 @@ const FixturesPage = async () => {
   // console.log(fixtures);
 
   return (
-    <main className="mt-[87px]">
+    <main className="mt-[70px] lg:mt-[87px]">
       <FixturesHeader />
 
       <div className="grid grid-cols-12 gap-4">
