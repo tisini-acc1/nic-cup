@@ -14,11 +14,11 @@ const FixturesPage = async () => {
 
   const data = await fixtureData;
   const fixtures = GroupFixtures(data);
-  console.log(scorers);
+  // console.log(scorers);
   // console.log(fixtures);
 
   return (
-    <main className="md:pt-28 pt-24 md:px-2">
+    <main className="mt-[87px]">
       <FixturesHeader />
 
       <div className="grid grid-cols-12 gap-4">

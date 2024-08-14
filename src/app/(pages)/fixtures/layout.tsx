@@ -1,5 +1,5 @@
-import { PagesHeader } from "@/components/pages-header/pages-header";
 import { Footer } from "@/components/site/footer";
+import { PagesHeader } from "@/components/pages-header/pages-header";
 
 const FixturesLayout = ({
   children,

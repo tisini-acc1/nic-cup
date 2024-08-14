@@ -1,29 +1,32 @@
 "use client";
 
+import Link from "next/link";
+import Image from "next/image";
+
 import { useAppContext } from "@/context";
+
+const tabs = ["15 Aug", "16 Aug", "17 Aug", "18 Aug"];
+
+const categories = [
+  "U7",
+  "U9",
+  "U11",
+  "U13",
+  "U15 Boys",
+  "U15 Girls",
+  "U17Boys",
+  "U17 Girls",
+  "U20",
+];
 
 export const FixturesHeader = () => {
   const { activeTab, activeCat, setActiveCat, setActiveTab } = useAppContext();
 
-  const tabs = ["15 Aug", "16 Aug", "17 Aug", "18 Aug"];
-
-  const categories = [
-    "U7",
-    "U9",
-    "U11",
-    "U13",
-    "U15 Boys",
-    "U15 Girls",
-    "U17Boys",
-    "U17 Girls",
-    "U20",
-  ];
-
   // console.log(activeTab);
 
   return (
-    <header>
-      <div className="flex overflow-x-auto gap-1 bg-sky-300 p-1 rounded-md mt-1">
+    <header className="">
+      <div className="flex overflow-x-auto gap-1 bg-sky-300 p-1 rounded-md">
         {tabs.map((tab, idx) => (
           <button
             key={idx}
