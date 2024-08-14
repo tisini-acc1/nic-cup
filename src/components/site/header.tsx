@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -10,8 +10,24 @@ export const SiteHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [headerActive, setHeaderActive] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setHeaderActive(window.scrollY > 50);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0 z-50">
+    <nav
+      className={`${
+        headerActive ? ` bg-sky-400` : `bg-transparent`
+      } w-full flex justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0 z-50`}
+    >
       <Link href={"/"}>
         <Image src={"/nic.png"} alt="NIC" width={80} height={80} />
       </Link>
@@ -71,8 +87,8 @@ export const SiteHeader = () => {
           ))}
 
           <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden">
-          <Link href={"/fixtures"}>Fixtures</Link>
-        </button>
+            <Link href={"/fixtures"}>Fixtures</Link>
+          </button>
         </ul>
       </div>
     </nav>
