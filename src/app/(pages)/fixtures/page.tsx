@@ -3,14 +3,14 @@ import { TopScorers } from "./modules/top-scorers";
 import { Fixture } from "../../../../types/fixture";
 import { FixturesHeader } from "./modules/fix-header";
 import GroupFixtures from "@/lib/data/group-fixtures";
-import { getTopScorers } from "@/lib/data/fetch-scorers";
+// import { getTopScorers } from "@/lib/data/fetch-scorers";
 import { getAllFixtures } from "@/lib/data/fetch-fixtures";
 
 const FixturesPage = async () => {
   const fixtureData: Promise<Fixture[]> = getAllFixtures();
-  const scorersData = getTopScorers("1");
+  // const scorersData = getTopScorers("1");
 
-  const scorers = await scorersData;
+  // const scorers = await scorersData;
 
   const data = await fixtureData;
   const fixtures = GroupFixtures(data);

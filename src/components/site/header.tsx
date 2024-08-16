@@ -69,7 +69,7 @@ export const SiteHeader = () => {
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         className={`${
           isMenuOpen ? "flex" : "hidden"
-        } w-full h-fit bg-sky-400 absolute top-[72px] left-0`}
+        } w-full h-fit bg-red-400 absolute top-[72px] left-0 flex flex-col`}
       >
         <ul className="flex flex-col justify-center items-center gap-2 w-full p-4">
           {Menus.map((menu) => (
@@ -85,11 +85,11 @@ export const SiteHeader = () => {
               {menu.name}
             </ScrollLink>
           ))}
-
-          <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden">
-            <Link href={"/fixtures"}>Fixtures</Link>
-          </button>
         </ul>
+
+        <button className="w-1/4 mx-auto mb-2 bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+          <Link href={"/fixtures"}>Fixtures</Link>
+        </button>
       </div>
     </nav>
   );

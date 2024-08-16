@@ -14,7 +14,7 @@ const categories = [
   "U13",
   "U15 Boys",
   "U15 Girls",
-  "U17Boys",
+  "U17 Boys",
   "U17 Girls",
   "U20",
 ];
