@@ -11,7 +11,7 @@ export function AppWrapper({
 }>) {
   const DATES = ["2024-08-15", "2024-08-16", "2024-08-17", "2024-08-18"];
 
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(3);
   const [activeCat, setActiveCat] = useState(0);
 
   const contextValue = {
