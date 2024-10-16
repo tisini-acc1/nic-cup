@@ -13,7 +13,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-[20px] text-slate-700 font-playpen">
-            Kenya&apos;s Premier Grassroot Soccer Tournament.
+            Kenya&apos;s Premier Grassroot Sports Festival.
           </p>
 
           {/* <CustomButton /> */}

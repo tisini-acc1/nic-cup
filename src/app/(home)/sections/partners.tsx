@@ -1,9 +1,10 @@
 import Image from "next/image";
 
 const partners: string[] = [
+  "/tisini.png",
   "/partners/decathlon.png",
   "/partners/fkf.jpeg",
-  "/tisini.png",
+  "/partners/sofascore.jpeg",
 ];
 
 const PartnerSection = () => {

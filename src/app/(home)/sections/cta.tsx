@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
+
 // import { RegisterButton } from "@/components/buttons/register-button";
-import { Link } from "react-scroll";
 
 const Cta = () => {
   return (
@@ -11,22 +12,9 @@ const Cta = () => {
         Kenya&apos;s Premier Grassroot Soccer Tournament.
       </div>
 
-      <button className="bg-lime-400  text-black px-4 py-2 rounded-lg font-bold md:flex z-10">
-        <Link
-          to="footer"
-          spy={true}
-          offset={-100}
-          smooth={true}
-          // className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px]"
-        >
-          Become a Partner
-        </Link>
+      <button className="bg-lime-400 hover:bg-white  text-black px-4 py-2 rounded-lg font-bold md:flex z-10">
+        <Link href="/partners">Become a Partner</Link>
       </button>
-
-      <div className="text-black text-xl font-bold z-10 cursor-pointer bg-lime-400 hover:bg-white p-3 rounded-md transform hover:scale-105 transition-transform duration-300">
-        +254 719 422235 | +254 790 659116
-      </div>
-
       {/* <RegisterButton /> */}
     </section>
   );

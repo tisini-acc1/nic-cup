@@ -18,6 +18,13 @@ const FixturesHeader = () => {
         </Link>
 
         <Link
+          href={"/partners"}
+          className="hidden md:inline-block text-black uppercase font-semibold cursor-pointer  hover:text-white"
+        >
+          Partners
+        </Link>
+
+        <Link
           href={"/gallery"}
           className="hidden md:inline-block text-black uppercase font-semibold cursor-pointer  hover:text-white"
         >

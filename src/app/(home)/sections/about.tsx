@@ -32,7 +32,7 @@ export const AboutSection = () => {
           beautiful game annually while leaving behind a legacy that will
           connect this game we all love to the community creating an impact
           which will inspire hope and create incredible stories of great sports
-          men.
+          men and women.
         </p>
         <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
           The main objective is to reach kids, youth and coaches at the
