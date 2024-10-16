@@ -2,7 +2,7 @@
 
 import { useAppContext } from "@/context";
 import { useEffect, useState } from "react";
-import { Player, Scores } from "../../../../../types/fixture";
+import { Player, Scores } from "../../../../types/fixture";
 
 const categories = [
   "U7",

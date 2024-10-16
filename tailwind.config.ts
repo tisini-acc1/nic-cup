@@ -42,6 +42,7 @@ const config: Config = {
 
       backgroundImage: {
         hero: "url(/hero.jpg)",
+        partners: "url(/2024/champ6.jpg)",
         // "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         // "gradient-conic":
         //   "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

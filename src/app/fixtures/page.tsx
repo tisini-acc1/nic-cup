@@ -1,6 +1,6 @@
 import { Fixtures } from "./modules/fixtures";
 import { TopScorers } from "./modules/top-scorers";
-import { Fixture } from "../../../../types/fixture";
+import { Fixture } from "../../../types/fixture";
 import { FixturesHeader } from "./modules/fix-header";
 import GroupFixtures from "@/lib/data/group-fixtures";
 // import { getTopScorers } from "@/lib/data/fetch-scorers";

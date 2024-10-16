@@ -8,7 +8,7 @@ export const AboutSection = () => {
     >
       <div className="flex-1 lg:-w-[38%] md:w-full sm:w-full w-full h-auto relative overflow-hidden rounded-lg">
         <Image
-          src={"/hero.jpg"}
+          src={"/about.jpeg"}
           alt="about"
           width={800}
           height={0}
@@ -49,8 +49,8 @@ export const AboutSection = () => {
         </p>
 
         <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
-          This is the Ultimate NIC Promise and will be delivered. The game needs
-          us. All of us. Together we will achieve it.
+          This is the Ultimate NaiCupKe Promise and will be delivered. The game
+          needs us. All of us. Together we will achieve it.
         </p>
       </div>
     </section>

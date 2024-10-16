@@ -1,7 +1,7 @@
 "use client";
 
 import { FixtureCard } from "./fix-card";
-import { GroupedFixtures } from "../../../../../types/fixture";
+import { GroupedFixtures } from "../../../../types/fixture";
 import { useAppContext } from "@/context";
 
 const categories = [

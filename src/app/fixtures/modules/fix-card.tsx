@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Fixture } from "../../../../../types/fixture";
+import { Fixture } from "../../../../types/fixture";
 
 export const FixtureCard = ({ fixture }: { fixture: Fixture }) => {
   const homeWin = fixture.home_score > fixture.away_score;

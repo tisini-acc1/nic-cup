@@ -48,7 +48,7 @@ export const SiteHeader = () => {
         ))}
 
         <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden">
-          <Link href={"/fixtures"}>Fixtures</Link>
+          <Link href={"/fixtures"}>Register</Link>
         </button>
       </div>
 
@@ -88,7 +88,7 @@ export const SiteHeader = () => {
         </ul>
 
         <button className="w-1/4 mx-auto mb-2 bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-          <Link href={"/fixtures"}>Fixtures</Link>
+          <Link href={"/fixtures"}>Register</Link>
         </button>
       </div>
     </nav>
@@ -98,10 +98,10 @@ export const SiteHeader = () => {
 const Menus = [
   { id: 1, name: "home", target: "home", offset: -100 },
   { id: 2, name: "about", target: "about", offset: 0 },
-  { id: 5, name: "testimony", target: "testimony", offset: 0 },
   { id: 6, name: "faqs", target: "faqs", offset: 0 },
+  { id: 4, name: "gallery", target: "gallery", offset: 0 },
+  { id: 3, name: "partners", target: "partners", offset: 0 },
+  { id: 5, name: "testimony", target: "testimony", offset: 0 },
   { id: 7, name: "contacts", target: "contacts", offset: 0 },
-  // { id: 3, name: "members", target: "members", offset: 0 },
-  // { id: 4, name: "alumni", target: "alumni", offset: 0 },
   // { id: 8, name: "resources", target: "/resources", offset: 0 },
 ];

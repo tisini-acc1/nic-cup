@@ -12,13 +12,19 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-[20px] text-slate-700 font-playpen">
-            A soccer festival in a vibrant city!
+            Kenya's Premier Grassroot Soccer Tournament.
           </p>
 
           {/* <CustomButton /> */}
-          <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-            <Link href={"/fixtures"}>Fixtures</Link>
-          </button>
+          <div className="flex gap-8">
+            <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+              <Link href={"/fixtures"}>2024 Results</Link>
+            </button>
+
+            <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+              <Link href={"/fixtures"}>Register 2025</Link>
+            </button>
+          </div>
         </div>
 
         <div>

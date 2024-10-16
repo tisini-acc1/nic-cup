@@ -12,7 +12,7 @@ export const TestimonySection = () => {
   return (
     <section id="testimony" className="py-12 xl:py-28">
       <div className="container mx-auto">
-        <h2 className="h2 text-center">Our Testimonials</h2>
+        <h2 className="h2 text-center mb-8">Our Testimonials</h2>
 
         <div>
           <Swiper

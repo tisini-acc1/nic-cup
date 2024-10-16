@@ -66,23 +66,23 @@ const faqs = [
   {
     id: 1,
     question: "What are the dates of the tournament?",
-    answer: "Thursday 15th August – Sunday 18th of August, 2024",
+    answer: "August, 2025",
   },
   {
     id: 2,
     question: "Where will Nairobi International Cup take place?",
-    answer: "Lenana School and St. Mary’s School, in Nairobi County, Kenya.",
+    answer: "Lenana School. Nairobi County, Kenya.",
   },
   {
     id: 3,
     question: "What are the age categories?",
-    answer: `Boys: U7, U9, U11, U13, U15, U17 and U20. \nGirls: U15, U17 and U20.`,
+    answer: `Boys: u5, u7, u9, u11, u13, u15, u17, u20. \nGirls: u13, u15, u17.`,
   },
   {
     id: 4,
     question: "How many people will be involved?",
     answer:
-      "The Event will feature over 300 teams making it over 8000 kids and youth coming together for a common goal - to enjoy and celebrate a game we all love. A game that has given us so much. This will also provide a perfect platform to open up our city and showcase its warmth, vibrancy to all our guests.",
+      "The Event will feature over 300 teams making it over 12000 kids and youth coming together for a common goal - to enjoy and celebrate a game we all love. A game that has given us so much. This will also provide a perfect platform to open up our city and showcase its warmth, vibrancy to all our guests.",
   },
   {
     id: 5,
