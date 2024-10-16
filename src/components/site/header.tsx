@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { Link as ScrollLink } from "react-scroll";
+import { RegisterButton } from "../buttons/register-button";
 
 export const SiteHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,9 +48,7 @@ export const SiteHeader = () => {
           </ScrollLink>
         ))}
 
-        <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden">
-          <Link href={"/fixtures"}>Register</Link>
-        </button>
+        <RegisterButton />
       </div>
 
       <div
@@ -87,9 +86,7 @@ export const SiteHeader = () => {
           ))}
         </ul>
 
-        <button className="w-1/4 mx-auto mb-2 bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-          <Link href={"/fixtures"}>Register</Link>
-        </button>
+        <RegisterButton />
       </div>
     </nav>
   );

@@ -1,3 +1,4 @@
+import { RegisterButton } from "@/components/buttons/register-button";
 import { CustomImage } from "@/components/custom-image";
 // import { CustomButton } from "@/components/custom-button";
 import Link from "next/link";
@@ -21,9 +22,7 @@ export const HeroSection = () => {
               <Link href={"/fixtures"}>2024 Results</Link>
             </button>
 
-            <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-              <Link href={"/fixtures"}>Register 2025</Link>
-            </button>
+            <RegisterButton />
           </div>
         </div>
 

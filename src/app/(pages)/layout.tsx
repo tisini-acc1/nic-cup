@@ -1,5 +1,5 @@
 import { Footer } from "@/components/site/footer";
-import { PagesHeader } from "@/components/pages-header/pages-header";
+import FixturesHeader from "@/components/headers/fixtures-header";
 
 const PagesLayout = ({
   children,
@@ -8,7 +8,7 @@ const PagesLayout = ({
 }>) => {
   return (
     <div>
-      <PagesHeader />
+      <FixturesHeader />
       {children}
       <Footer />
     </div>
