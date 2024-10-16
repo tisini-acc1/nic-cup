@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export const TestimonySection = () => {
   return (
-    <section id="testimony" className="py-12 xl:py-28">
+    <section id="testimony" className="py-12 xl:py-28 bg-gray-100">
       <div className="container mx-auto">
         <h2 className="h2 text-center mb-8">Our Testimonials</h2>
 

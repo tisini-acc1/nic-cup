@@ -4,6 +4,7 @@ import { AboutSection } from "./sections/about";
 import { TestimonySection } from "./sections/testimony";
 import { GallerySection } from "./sections/gallery";
 import PartnerSection from "./sections/partners";
+import Cta from "./sections/cta";
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
       <AboutSection />
       <FaqsSection />
       <GallerySection />
-      <PartnerSection />
       <TestimonySection />
+      <Cta />
+      <PartnerSection />
     </main>
   );
 }
