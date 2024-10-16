@@ -9,7 +9,7 @@ const PartnerSection = () => {
     >
       <div className="absolute bg-sky-400 opacity-55 h-full w-full"></div>
       <div className="text-white text-center text-4xl font-bold z-10">
-        Kenya's Premier Grassroot Soccer Tournament.
+        Kenya&apos;s Premier Grassroot Soccer Tournament.
       </div>
       <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
         {/* <Link
