@@ -61,7 +61,7 @@ const TopSection = () => {
     <section className="container mx-auto pt-5 pb-8">
       <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
         <div className="flex-1 order-1 lg:-order-1">
-          <Image src="/2024/champ15.jpg" alt="" width={700} height={700} />
+          <Image src="/2024/champ32.jpg" alt="" width={700} height={700} />
         </div>
 
         <div className="flex-1 flex flex-col justify-end">
