@@ -5,7 +5,12 @@ export const PagesHeader = () => {
   return (
     <nav className="w-full flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6  fixed top-0">
       <Link href={"/"}>
-        <Image src={"/nic.png"} alt="NIC" width={60} height={60} />
+        <Image
+          src={"/Partially removed BG.png"}
+          alt="NIC"
+          width={60}
+          height={60}
+        />
       </Link>
 
       <Link

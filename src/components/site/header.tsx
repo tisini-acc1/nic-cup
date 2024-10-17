@@ -30,7 +30,12 @@ export const SiteHeader = () => {
       } w-full flex justify-between items-center gap-1 lg:px-16 px-6 py-4 fixed top-0 z-50`}
     >
       <Link href={"/"}>
-        <Image src={"/nic.png"} alt="NIC" width={80} height={80} />
+        <Image
+          src={"/Partially removed BG.png"}
+          alt="NIC"
+          width={80}
+          height={80}
+        />
       </Link>
 
       <div className="lg:flex justify-center items-center gap-8 hidden">

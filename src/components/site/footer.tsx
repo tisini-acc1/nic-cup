@@ -17,7 +17,12 @@ export const Footer = () => {
       <div className="w-[90%] flex gap-4 flex-col md:flex-row items-center justify-between mx-auto py-4 border-b-2 border-gray-400">
         <div className="">
           <Link className="flex items-center justify-center mb-4" href={"/"}>
-            <Image src="/nic.png" alt="logo" width={110} height={100} />
+            <Image
+              src="/Partially removed BG.png"
+              alt="logo"
+              width={110}
+              height={100}
+            />
           </Link>
 
           <div className="flex items-center gap-4 flex-wrap">
