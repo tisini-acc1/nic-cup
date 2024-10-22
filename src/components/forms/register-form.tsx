@@ -90,16 +90,16 @@ const RegisterForm = () => {
   return (
     <Form {...form}>
       <form onSubmit={() => {}} className="space-y-6 bg-white p-4 rounded-lg ">
-        <p className="bg-red-400 p-2">Registration to start in January 2025</p>
+        <p className="bg-red-400 p-2">Registration to start in November 2024</p>
 
         <FormField
           control={form.control}
           name="teamname"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Teamname</FormLabel>
+              <FormLabel>Team Name</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" {...field} />
+                <Input placeholder="team name" {...field} />
               </FormControl>
               {/* <FormDescription>
                 This is your public display name.
@@ -117,7 +117,7 @@ const RegisterForm = () => {
               <FormItem>
                 <FormLabel>Country</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input placeholder="country" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -131,7 +131,7 @@ const RegisterForm = () => {
               <FormItem>
                 <FormLabel>County</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input placeholder="county" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -147,7 +147,7 @@ const RegisterForm = () => {
               <FormItem>
                 <FormLabel>Contact Person</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input placeholder="contact" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -161,7 +161,7 @@ const RegisterForm = () => {
               <FormItem>
                 <FormLabel>Phone number</FormLabel>
                 <FormControl>
-                  <Input placeholder="shadcn" {...field} />
+                  <Input placeholder="phone number" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>

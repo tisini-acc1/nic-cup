@@ -18,7 +18,7 @@ export const HeroSection = () => {
       <div className="lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4 w-full flex flex-col lg:flex-row justify-between items-center">
         <aside className="w-full lg:w-1/2 text-center lg:text-start">
           <h1 className="text-5xl lg:text-7xl xl:text-8xl mb-5 text-black">
-            <small className="text-xl font-semibold">Season Two</small>
+            {/* <small className="text-xl font-semibold">Season Two</small> */}
             <br />
             <span className={itim.className}>Nairobi International Cup</span>
           </h1>
@@ -35,7 +35,7 @@ export const HeroSection = () => {
 
           <div className="flex justify-center lg:justify-start gap-8 mt-8">
             <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-              <Link href={"/fixtures"}>Season One Results</Link>
+              <Link href={"/fixtures"}>First Edition Results</Link>
             </button>
 
             <RegisterButton />
@@ -44,9 +44,9 @@ export const HeroSection = () => {
           <Timer launchDate="2025-08-01T07:00:00" />
         </aside>
 
-        <aside className="bg-flag bg-center bg-contain bg-no-repeat w-full lg:w-1/2 flex justify-center pl-4 mt-5 lg:mt-0">
+        <aside className="w-full lg:w-1/2 flex justify-center pl-4 mt-5 lg:mt-0">
           <Image
-            src={"/soccer.png"}
+            src={"/kenya-flag.webp"}
             alt={"player"}
             width={650}
             height={400}
