@@ -4,7 +4,7 @@ import { RegisterButton } from "../buttons/register-button";
 
 const FixturesHeader = () => {
   return (
-    <nav className="w-full h-24 flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6  fixed top-0">
+    <nav className="w-full h-24 flex bg-sky-400 justify-between items-center gap-1 lg:px-16 px-6 z-50 fixed top-0">
       <Link href={"/"}>
         <Image
           src={"/Partially removed BG.png"}

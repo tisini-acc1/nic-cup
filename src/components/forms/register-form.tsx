@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import {
   Form,
   FormControl,
@@ -13,7 +14,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "../ui/input";
 import { Checkbox } from "../ui/checkbox";
-import { Button } from "../ui/button";
+// import { Button } from "../ui/button";
 
 const formSchema = z.object({
   teamname: z.string().min(2, {
@@ -88,8 +89,8 @@ const RegisterForm = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={() => {}} className="space-y-6">
-        <p className="bg-red-400 p-2">Registration to start in November</p>
+      <form onSubmit={() => {}} className="space-y-6 bg-white p-4 rounded-lg ">
+        <p className="bg-red-400 p-2">Registration to start in January 2025</p>
 
         <FormField
           control={form.control}

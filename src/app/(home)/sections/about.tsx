@@ -10,9 +10,9 @@ export const AboutSection = () => {
         <Image
           src={"/about.jpeg"}
           alt="about"
-          width={800}
-          height={800}
-          className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh] object-cover"
+          width={600}
+          height={600}
+          className="w-full lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[35vh] object-cover"
         />
       </div>
 

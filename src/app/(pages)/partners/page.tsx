@@ -5,7 +5,7 @@ import { Fa42Group } from "react-icons/fa6";
 
 const PartnersPage = () => {
   return (
-    <main className="pt-32">
+    <main className="pt-32 ">
       <div className="">
         <h2 className="h2 text-center mb-8">Why Partner with Us?</h2>
 

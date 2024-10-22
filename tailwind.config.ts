@@ -74,7 +74,7 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        hero: "url(/hero.jpg)",
+        hero: "url(/2024/champ10.jpg)",
         flag: "url(/kenya-flag.webp)",
         partners: "url(/2024/champ6.jpg)",
       },

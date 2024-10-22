@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebook, FaTiktok } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaWhatsapp } from "react-icons/fa6";
+// import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 
@@ -13,7 +13,7 @@ export const Footer = () => {
   const date = new Date().getFullYear();
 
   return (
-    <footer id="contacts" className="py-4 mt-4 bg-[#e3b130] text-white">
+    <footer id="contacts" className="py-4 bg-[#e3b130] text-white">
       <div className="w-[90%] flex gap-4 flex-col md:flex-row items-center justify-between mx-auto py-4 border-b-2 border-gray-400">
         <div className="">
           <Link className="flex items-center justify-center mb-4" href={"/"}>
