@@ -16,7 +16,7 @@ const PartnersPage = () => {
         <ThirdSection />
 
         <section className="bg-gray-100">
-          <div className="container mx-auto py-8 xl:py-20">
+          <div className="lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4">
             <h2 className="h2 text-center mb-12">Our Partners</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 p-2">
               {partners.map((partner) => (
@@ -58,7 +58,7 @@ export default PartnersPage;
 
 const TopSection = () => {
   return (
-    <section className="container mx-auto pt-5 pb-8">
+    <section className="lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4">
       <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
         <div className="flex-1 order-1 lg:-order-1">
           <Image src="/2024/champ32.jpg" alt="" width={700} height={700} />
@@ -71,7 +71,7 @@ const TopSection = () => {
             opportunities for brands looking to:
           </p>
 
-          <div>
+          <div className="space-y-2">
             <Item
               title={"Boost Brand Visibility:"}
               subtitle={`Reach a wide and engaged audience across East Africa,
@@ -107,11 +107,11 @@ const TopSection = () => {
 
 const SecondSection = () => {
   return (
-    <section className="bg-gray-100 py-10 xl:py-20">
+    <section className="bg-gray-100 lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4">
       <h2 className="h2 text-center mb-12">
         Impact Statistics from the 2024 Edition
       </h2>
-      <div className="container mx-auto  flex flex-col lg:flex-row lg:gap-x-[100px]">
+      <div className="flex flex-col lg:flex-row lg:gap-x-[100px]">
         <div className="flex-1 flex flex-col justify-end">
           {/* <h2 className="title h4">Impact Statistics from the 2024 Edition:</h2> */}
           {/* <p className="subtitle">
@@ -119,7 +119,7 @@ const SecondSection = () => {
               opportunities for brands looking to:
             </p> */}
 
-          <div>
+          <div className="space-y-2">
             <Item
               title={"Social Media Reach:"}
               subtitle={`The 2024 Edition of the Nairobi International Cup generated over 1.5 million impressions on social media platforms
@@ -148,9 +148,9 @@ const SecondSection = () => {
 
 const ThirdSection = () => {
   return (
-    <section className="container mx-auto py-10 xl:py-28">
+    <section className="lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4">
       <h2 className="h2 text-center mb-8">Join Us!</h2>
-      <div className="flex flex-col lg:flex-row lg:gap-x-[100px] space-y-3">
+      <div className="flex flex-col lg:flex-row lg:gap-x-[30px] space-y-3">
         <p>
           We believe that together, we can create an unforgettable event that
           supports education, sports and development from where it all starts -
@@ -187,8 +187,8 @@ const Item = ({ title, subtitle }: ItemProps) => {
         <Fa42Group />
       </div>
       <div>
-        <h4 className="text-base lg:text-xl font-semibold mb-3">{title}</h4>
-        <p>{subtitle}</p>
+        <h4 className="text-base lg:text-lg font-semibold">{title}</h4>
+        <p className="text-sm">{subtitle}</p>
       </div>
     </div>
   );

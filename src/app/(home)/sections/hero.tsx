@@ -15,7 +15,7 @@ export const HeroSection = () => {
       id="home"
       className="bg-sky-400 lg:h-screen flex justify-center items-center"
     >
-      <div className="container pt-20 lg:pt-0 px-4 w-full flex flex-col lg:flex-row justify-between items-center">
+      <div className="lg:py-16 md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4 w-full flex flex-col lg:flex-row justify-between items-center">
         <aside className="w-full lg:w-1/2 text-center lg:text-start">
           <h1 className="text-5xl lg:text-7xl xl:text-8xl mb-5 text-black">
             <small className="text-xl font-semibold">Season Two</small>
