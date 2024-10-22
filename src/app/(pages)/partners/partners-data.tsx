@@ -23,4 +23,10 @@ export const partners = [
     link: "www.sofascore.com",
     msg: "Sofascore is an application for following sports statistics and results. The app is owned and developed by SofaIT from Zagreb, Croatia. In 2020, the app had 20 million users. It covers 20 different sports and around 11,000 different leagues and tournaments, and is available in more than 30 different languages.",
   },
+  {
+    id: 5,
+    img: "/partners/skeiya.png",
+    link: "www.sofascore.com",
+    msg: "Home of Football is a premier commercial sports company in Africa dedicated to the advancement of sports. With our core selction being: Football (Soccer), Rugby, NFL, basketball and E-Sport. We offer a wide range of services, including a sports social platform, sports tourism, sports agency, and upcoming projects designed to enhance sports development under our Sports Village umbrella.",
+  },
 ];
