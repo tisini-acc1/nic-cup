@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FaFacebook, FaTiktok } from "react-icons/fa6";
+import { FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 // import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -88,9 +88,9 @@ const socials = [
     link: "https://www.instagram.com/naicupke/profilecard/?igsh=bnF1aWsxMW92azFi",
   },
   {
-    name: "linkedin",
-    icon: FaLinkedinIn,
-    link: "",
+    name: "youtube",
+    icon: FaYoutube,
+    link: "https://www.youtube.com/channel/UC2AtQMPRUnstvr3u2DxtQVg",
   },
   {
     name: "tiktok",
