@@ -29,4 +29,16 @@ export const partners = [
     link: "www.skeiya.com",
     msg: "Home of Football is a premier commercial sports company in Africa dedicated to the advancement of sports. With our core selction being: Football (Soccer), Rugby, NFL, basketball and E-Sport. We offer a wide range of services, including a sports social platform, sports tourism, sports agency, and upcoming projects designed to enhance sports development under our Sports Village umbrella.",
   },
+  {
+    id: 6,
+    img: "/partners/BornforGreatness.png",
+    link: "www.bornforgreatness.co.ke",
+    msg: "Born for Greatness helps young people to develop tangible skills and a mindset that enables them to succeed at home, school – and beyond. Our programs and activities enable young people to develop roaring courage, resilience, discipline, motivation, and a sense of self-worth so they can forge ahead in life with clarity, confidence and conviction.",
+  },
+  {
+    id: 7,
+    img: "/partners/Lifesong.png",
+    link: "www.lifesongkenya.org",
+    msg: "Lifesong Kenya is a non profit organization that is dedicated to offering vulnerable individuals a safe place and aftercare services that will help boys to heal, recover and regain their dignity and rewrite their life stories.",
+  },
 ];

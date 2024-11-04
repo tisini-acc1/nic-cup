@@ -22,12 +22,15 @@ const PartnersPage = () => {
               {partners.map((partner) => (
                 <div key={partner.id} className="border rounded-md">
                   <div className="h-[120px] flex items-center justify-center">
-                    <Image
-                      src={partner.img}
-                      alt={partner.img}
-                      width={200}
-                      height={200}
-                    />
+                    <div className="relative w-full h-28 aspect-square">
+                      <Image
+                        src={partner.img}
+                        alt={partner.img}
+                        layout="fill"
+                        objectFit="contain"
+                        className="h-full w-full p-1"
+                      />
+                    </div>
                   </div>
 
                   <div className="p-2">
