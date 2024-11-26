@@ -41,4 +41,10 @@ export const partners = [
     link: "www.lifesongkenya.org",
     msg: "Lifesong Kenya is a non profit organization that is dedicated to offering vulnerable individuals a safe place and aftercare services that will help boys to heal, recover and regain their dignity and rewrite their life stories.",
   },
+  {
+    id: 8,
+    img: "/partners/kq.jpg",
+    link: "www.kenya-airways.com",
+    msg: "Anchored on our promise of a delightful experience with a caring African touch; Kenya Airways, a member of the Sky Team Alliance, is a leading African airline flying to 45 destinations worldwide, 37 of which are in Africa. We are committed to being Africa’s preferred and sustainable aviation group by promoting sustainable environmental, social and governance factors.",
+  },
 ];

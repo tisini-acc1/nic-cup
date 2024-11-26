@@ -8,6 +8,7 @@ const partners: string[] = [
   "/partners/skeiya.png",
   "/partners/BornforGreatness.png",
   "/partners/Lifesong.png",
+  "/partners/kq.jpg",
 ];
 
 const PartnerSection = () => {
