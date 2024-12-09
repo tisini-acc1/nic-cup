@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa6";
+import { FaFacebook, FaTiktok, FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 // import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -100,10 +100,10 @@ const socials = [
 ];
 
 const contacts = [
-  { icon: FaPhoneAlt, contact: "+254 719 422235, +254 790 659116" },
-  { icon: FaPhoneAlt, contact: "+254 111 931049" },
+  { icon: FaPhoneAlt, contact: "+254 790 659116" },
+  { icon: FaWhatsapp, contact: "+254 719 422235" },
   {
     icon: MdEmail,
-    contact: "nairobiinternationalcup@gmail.com",
+    contact: "hello@nairobiinternationalcup.co.ke",
   },
 ];

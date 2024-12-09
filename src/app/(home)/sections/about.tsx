@@ -28,30 +28,22 @@ export const AboutSection = () => {
           of service
         </h1>
         <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
-          The Nairobi International Cup, is a program that aims to celebrate the
-          beautiful game annually while leaving behind a legacy that will
-          connect this game we all love to the community creating an impact
-          which will inspire hope and create incredible stories of great sports
-          men and women.
+          An International Inclusive Annual Sporting Festival Held in Kenya
+          every August at the heart of Kenya’s Capital. The Inaugural Edition
+          saw over 272 Teams take part in the event with over 9000 participants
+          taking to the field to display their talents and really exercise their
+          love for the game.
         </p>
         <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
-          The main objective is to reach kids, youth and coaches at the
-          grassroot level who struggle everyday to get footballs, basic training
-          equipment, kits and soccer boots. This is a program that comes in as a
-          partner, as a well wisher and as a friend that will always be around
-          to give them a hand. From Nairobi to Isiolo, From Lamu to Sindo, From
-          Lodwar to Busia, From Siaya to Eldoret, we will endeavor to reach the
-          kids and grassroot coaches who do so much to make these kids happy and
-          show them a way out of their present life situations through sports.
-          Football kit, soccer boots, footballs, and cones will be donated. All
-          in the spirit of elevating the game that has given us so much while
-          lending a helping hand to the community that made all of us.
+          Nairobi International Cup took the game to where it belongs – The
+          community. To connect communities and the game is our ultimate goal
+          and main objective.
         </p>
 
-        <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
+        {/* <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
           This is the Ultimate NaiCupKe Promise and will be delivered. The game
           needs us. All of us. Together we will achieve it.
-        </p>
+        </p> */}
       </div>
     </section>
   );

@@ -42,7 +42,7 @@ const Accord = (props: AccordionProps) => {
     const nextIndex = isActiveSection ? 0 : sectionIndex;
     setActiveIndex(nextIndex);
   };
-
+  // console.log(props);
   return (
     <div>
       <div
@@ -56,11 +56,65 @@ const Accord = (props: AccordionProps) => {
       </div>
 
       <div className="px-5 text-[#71717a]">
-        {isActiveSection && <p>{section.answer}</p>}
+        {isActiveSection && section.id === 3 ? (
+          <Table />
+        ) : (
+          isActiveSection && <p>{section.answer}</p>
+        )}
       </div>
     </div>
   );
 };
+
+const Table = () => {
+  return (
+    <div className="overflow-x-auto">
+      <table className="min-w-full table-auto border-collapse">
+        <thead>
+          <tr className="bg-gray-100">
+            <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+              Category
+            </th>
+            <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+              Gender
+            </th>
+            <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">
+              Field
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((item, index) => (
+            <tr
+              key={index}
+              className={`${
+                index % 2 === 0 ? "bg-white" : "bg-gray-50"
+              } hover:bg-gray-200`}
+            >
+              <td className="px-6 py-3 text-sm text-gray-700">{item.cat}</td>
+              <td className="px-6 py-3 text-sm text-gray-700">{item.gen}</td>
+              <td className="px-6 py-3 text-sm text-gray-700">{item.field}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+const data = [
+  { cat: "Under 5", gen: "-", field: "-" },
+  { cat: "Under 7", gen: "-", field: "-" },
+  { cat: "Under 11", gen: "-", field: "-" },
+  { cat: "Under 13", gen: "Boys", field: "11v11" },
+  { cat: "Under 13", gen: "Boys", field: "9v9" },
+  { cat: "Under 13", gen: "Girls", field: "9v9" },
+  { cat: "Under 15", gen: "Boys", field: "11v11" },
+  { cat: "Under 15", gen: "Girls", field: "11v11" },
+  { cat: "Under 17", gen: "Boys", field: "11v11" },
+  { cat: "Under 17", gen: "Girls", field: "11v11" },
+  { cat: "Under 20", gen: "Boys", field: "11v11" },
+];
 
 const faqs = [
   {

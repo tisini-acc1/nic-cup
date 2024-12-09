@@ -1,6 +1,6 @@
+import React from "react";
 import Accordion from "@/components/accordion";
 // import Image from "next/image";
-import React from "react";
 
 export const FaqsSection = () => {
   return (
