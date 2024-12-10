@@ -1,6 +1,4 @@
-import React from "react";
 import Accordion from "@/components/accordion";
-// import Image from "next/image";
 
 export const FaqsSection = () => {
   return (
@@ -12,16 +10,6 @@ export const FaqsSection = () => {
 
       <div className="w-full h-auto flex items-center justify-center gap-x-2 gap-y-5 flex-wrap mb-10">
         <Accordion />
-
-        {/* <div className="flex-1 lg:-w-[38%] md:w-full sm:w-full w-full h-auto relative overflow-hidden rounded-lg">
-          <Image
-            src={"/faqs.jpg"}
-            alt="about"
-            width={0}
-            height={0}
-            className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh] object-cover"
-          />
-        </div> */}
       </div>
     </section>
   );
