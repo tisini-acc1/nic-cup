@@ -17,8 +17,8 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "NIC Cup",
-  description: "Nairobi International Cup",
+  title: "Nairobi International Cup",
+  description: "Kenya's Premier Grassroot Sports Festival",
 };
 
 export default function RootLayout({

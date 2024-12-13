@@ -105,8 +105,8 @@ const Table = () => {
 const data = [
   { cat: "Under 5", gen: "Mixed", field: "4v4" },
   { cat: "Under 7", gen: "Mixed", field: "5v5" },
-  { cat: "Under 9", gen: "Mixed", field: "7v7" },
-  { cat: "Under 11", gen: "-", field: "-" },
+  { cat: "Under 9", gen: "Mixed", field: "6v6" },
+  { cat: "Under 11", gen: "Mixed", field: "7v7" },
   { cat: "Under 13", gen: "Boys", field: "11v11" },
   { cat: "Under 13", gen: "Boys", field: "9v9" },
   { cat: "Under 13", gen: "Girls", field: "9v9" },
