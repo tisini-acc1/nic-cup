@@ -1,5 +1,5 @@
-import { AspectRatio } from "@/components/ui/aspect-ratio";
-// import Image from "next/image";
+// import { AspectRatio } from "@/components/ui/aspect-ratio";
+import Image from "next/image";
 
 export const AboutSection = () => {
   return (
@@ -15,8 +15,7 @@ export const AboutSection = () => {
             className="lg:text-3xl md:text-3xl sm:text-2xl text-xl font-semibold mb-4 leading-normal lg:pe-5 md:pe-4 sm:pe-1 pe-0
         "
           >
-            Celebrating the community that made us and one that we owe a
-            lifetime of service
+            A Sporting Festival In A Special City and A Magical Country
           </h1>
           <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
             An International Inclusive Annual Sporting Festival Held in Kenya
@@ -33,14 +32,14 @@ export const AboutSection = () => {
         </div>
 
         <div className="flex-1 lg:-w-[38%] md:w-full sm:w-full w-full h-auto relative overflow-hidden rounded-lg">
-          {/* <Image
-          src={"/about.jpeg"}
-          alt="about"
-          width={600}
-          height={600}
-          className="w-full lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[35vh] object-cover"
-          /> */}
-          <AspectRatio ratio={16 / 9}>
+          <Image
+            src={"/about.jpeg"}
+            alt="about"
+            width={600}
+            height={600}
+            className="w-full lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[35vh] object-cover"
+          />
+          {/* <AspectRatio ratio={16 / 9}>
             <iframe
               width="853"
               height="480"
@@ -50,7 +49,7 @@ export const AboutSection = () => {
               allowFullScreen
               className="w-full h-full"
             ></iframe>
-          </AspectRatio>
+          </AspectRatio> */}
         </div>
       </div>
     </section>
