@@ -38,7 +38,7 @@ export const SiteHeader = () => {
         />
       </Link>
 
-      <div className="lg:flex justify-center items-center gap-8 hidden">
+      <div className="lg:flex justify-center items-center gap-4 hidden">
         {Menus.map((menu) => (
           <ScrollLink
             key={menu.id}
@@ -53,7 +53,12 @@ export const SiteHeader = () => {
           </ScrollLink>
         ))}
 
-        <RegisterButton />
+        <div className="flex gap-4 md:flex-row flex-col p-2">
+          <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+            <Link href={"/guidelines"}>2025 Guidelines</Link>
+          </button>
+          <RegisterButton />
+        </div>
       </div>
 
       <div
@@ -91,7 +96,12 @@ export const SiteHeader = () => {
           ))}
         </ul>
 
-        <RegisterButton />
+        <div className="flex gap-4 md:flex-row flex-col p-2">
+          <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+            <Link href={"/guidelines"}>2025 Guidelines</Link>
+          </button>
+          <RegisterButton />
+        </div>
       </div>
     </nav>
   );

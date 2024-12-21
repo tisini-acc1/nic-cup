@@ -42,6 +42,10 @@ const FixturesHeader = () => {
           2024 Results
         </Link>
 
+        <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+          <Link href={"/guidelines"}>2025 Guidelines</Link>
+        </button>
+
         <RegisterButton />
       </div>
     </nav>
