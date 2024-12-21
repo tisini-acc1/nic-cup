@@ -1,5 +1,4 @@
 import NairobiSlider from "@/components/home/nairobi-slider";
-import Image from "next/image";
 
 const VisitNairobi = () => {
   return (
