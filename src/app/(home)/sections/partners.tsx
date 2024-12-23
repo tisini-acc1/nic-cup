@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const partners: string[] = [
-  "/tisini.png",
-  "/partners/decathlon.png",
-  "/partners/fkf.jpeg",
-  "/partners/sofascore.jpeg",
-  "/partners/skeiya.png",
-  "/partners/BornforGreatness.png",
-  "/partners/Lifesong.png",
   "/partners/kq.jpg",
+  "/partners/decathlon.png",
+  "/partners/skeiya.png",
+  "/partners/sofascore.jpeg",
+  "/tisini.png",
+  "/partners/fkf.jpeg",
+  // "/partners/BornforGreatness.png",
+  // "/partners/Lifesong.png",
 ];
 
 const PartnerSection = () => {

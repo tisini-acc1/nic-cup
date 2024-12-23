@@ -84,61 +84,85 @@ const GuidelinePage = () => {
             <li>Valid travel passport for International Players</li>
           </ul>
           <p className="text-gray-600 mt-4">
-            Age verification will be a continuous process even during the
-            tournament days.
+            Age verification will be a continuous process and will continue even
+            during the tournament days.
           </p>
-
           <h3 className="text-xl font-semibold text-gray-600 mt-6 mb-2">
             Pre-Tournament Process
           </h3>
           <ul className="list-decimal pl-5 text-gray-600 space-y-2">
-            <li>All documents must be uploaded during player registration.</li>
             <li>
-              Nairobi-based teams will be vetted in July and early August at
-              their training grounds.
+              All documents should be uploaded alongside the player during
+              Player Registration.
             </li>
             <li>
-              Teams outside Nairobi/Kenya will be vetted upon arrival, a day
-              before kickoff.
+              All Nairobi based teams will be vetted during July and the
+              preceding days in August at their training grounds.
             </li>
             <li>
-              Players not present during pre-tournament verification can be
-              verified before their first game.
+              All Teams based outside Nairobi and Kenya will be vetted as they
+              arrive in the city a day to kick off.
+            </li>
+            <li>
+              Any player not present during pre tournament age verification
+              process, can always be verified before He/She plays His or Her
+              first game in the Tournament provided the player was listed on the
+              Team Lists Submitted by the Club/Academy.
             </li>
           </ul>
-
           <h3 className="text-xl font-semibold text-gray-600 mt-6 mb-2">
             During Tournament
           </h3>
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
             <li>
-              Teams must produce hard copies of documents submitted during
-              registration.
+              All teams should be able to produce hard copies of birth
+              verification documents, same as the one submitted during player
+              registration
             </li>
           </ul>
-
           <h3 className="text-xl font-semibold text-gray-600 mt-6 mb-2">
             Eligibility
           </h3>
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
             <li>
-              Submit team lists with all players listed, including photos,
-              names, and birthdates.
-            </li>
-            <li>Clear new players with the tournament before they play.</li>
-            <li>
-              Players not on the team lists, unverified, or uncleared will
-              result in team disqualification.
+              All teams should submit their team lists with all players listed.
             </li>
             <li>
-              A player cannot feature for two clubs in the same tournament; both
-              clubs will be disqualified.
+              Any new player who joins after team list submission should be
+              cleared by the tournament before playing.
             </li>
+            <li>
+              Team Lists should include passport photos, full names and Date of
+              Birth. No player who is not on the team lists will be allowed to
+              play.
+            </li>
+            <li>
+              In any case, you field a player not on the team lists, not
+              verified and cleared by the Tournament, It will result in
+              automatic disqualification.
+            </li>
+            <li>
+              A player may represent the same Academy/Club or School in various
+              age groups provided the player is:
+            </li>
+            <p>
+              Within the age for the categories as per the tournament
+              guidelines.
+            </p>
+            <p>
+              The player is registered and listed on the team lists submitted of
+              the age categories. Player should feature on all team lists the
+              Club/Academy or School intends to play Him or Her.
+            </p>
+            <p>Verified and passed to play in those age categories.</p>
           </ul>
 
           <p className="text-gray-600 mt-4">
-            Note: Age verification is a continuous process throughout the
-            tournament.
+            Note: Age verification is a continuous process that will continue
+            throughout the tournament. Nairobi International Cup does not and
+            will not tolerate age cheating and forgery of documents. Any Team
+            found guilty will be immediately disqualified from NaiCup2025 and
+            reported to relevant authorities.
           </p>
         </section>
       </div>
