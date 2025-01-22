@@ -121,12 +121,12 @@ const faqs = [
   {
     id: 1,
     question: "What are the dates of the tournament?",
-    answer: "August, 2025",
+    answer: "12th - 16th August, 2025",
   },
   {
     id: 2,
     question: "Where will Nairobi International Cup take place?",
-    answer: "Lenana School. Nairobi County, Kenya.",
+    answer: "Lenana School and Nairobi Polo Club.",
   },
   {
     id: 3,

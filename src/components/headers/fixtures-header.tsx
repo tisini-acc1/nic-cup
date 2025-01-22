@@ -17,34 +17,49 @@ const FixturesHeader = () => {
       <div className="flex gap-8 items-center justify-center">
         <Link
           href={"/"}
-          className=" text-black uppercase font-semibold cursor-pointer  hover:text-white"
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2 md:flex"
         >
           Home
         </Link>
 
         <Link
           href={"/partners"}
-          className="hidden md:inline-block text-black uppercase font-semibold cursor-pointer  hover:text-white"
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2 md:flex"
         >
           Partners
         </Link>
 
         <Link
           href={"/gallery"}
-          className="hidden md:inline-block text-black uppercase font-semibold cursor-pointer  hover:text-white"
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2 md:flex"
         >
           Gallery
         </Link>
+
         <Link
           href={"/fixtures"}
-          className="hidden md:inline-block text-black uppercase font-semibold cursor-pointer  hover:text-white"
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2 md:flex"
         >
           2024 Results
         </Link>
 
-        <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-          <Link href={"/guidelines"}>2025 Guidelines</Link>
-        </button>
+        <Link
+          href={"/registered-teams"}
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex p-2"
+        >
+          2025 Teams
+        </Link>
+
+        <Link
+          href={"/guidelines"}
+          className="text-black hover:bg-lime-400 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer p-2 md:flex"
+        >
+          2025 Guidelines
+        </Link>
+
+        {/* <button className="text-black hover:bg-lime-400 px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+          <Link href={"/guidelines"}></Link>
+        </button> */}
 
         <RegisterButton />
       </div>

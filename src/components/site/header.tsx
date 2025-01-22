@@ -47,16 +47,27 @@ export const SiteHeader = () => {
             offset={-100}
             smooth={true}
             activeClass="active"
-            className="text-white uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2 text-[15px]"
+            className="text-white text-xs uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2"
           >
             {menu.name}
           </ScrollLink>
         ))}
 
-        <div className="flex gap-4 md:flex-row flex-col p-2">
-          <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-            <Link href={"/guidelines"}>2025 Guidelines</Link>
-          </button>
+        <div className="flex items-center justify-center gap-4 md:flex-row flex-col">
+          <Link
+            href={"/registered-teams"}
+            className="text-white text-xs uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2"
+          >
+            2025 Teams
+          </Link>
+
+          <Link
+            href={"/guidelines"}
+            className="text-white text-xs uppercase font-semibold cursor-pointer rounded-lg hover:bg-lime-400 hover:text-black p-2"
+          >
+            2025 Guidelines
+          </Link>
+
           <RegisterButton />
         </div>
       </div>
@@ -97,6 +108,10 @@ export const SiteHeader = () => {
         </ul>
 
         <div className="flex gap-4 md:flex-row flex-col p-2">
+          <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
+            <Link href={"/registered-teams"}>2025 Teams</Link>
+          </button>
+
           <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
             <Link href={"/guidelines"}>2025 Guidelines</Link>
           </button>

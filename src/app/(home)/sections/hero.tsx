@@ -35,7 +35,7 @@ export const HeroSection = () => {
 
           <div className="flex justify-center lg:justify-start gap-8 mt-8">
             <button className="bg-lime-400 hover:bg-white text-black px-4 py-2 rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
-              <Link href={"/guidelines"}>Regestration Guidelines</Link>
+              <Link href={"/guidelines"}>Registration Guidelines</Link>
             </button>
 
             <RegisterButton />

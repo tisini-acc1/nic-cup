@@ -1,13 +1,15 @@
 import Image from "next/image";
 
 const partners: string[] = [
-  "/partners/kq.jpg",
+  "/partners/kq.png",
   "/partners/decathlon.png",
   "/partners/skeiya.png",
-  "/partners/sofascore.jpeg",
+  "/partners/ri.png",
+  "/partners/next-level.png",
+  "/partners/sofascore.png",
   "/tisini.png",
-  "/partners/fkf.jpeg",
-  // "/partners/BornforGreatness.png",
+  "/partners/fkf.png",
+  // "/partners/born-for-greatness.png",
   // "/partners/Lifesong.png",
 ];
 
@@ -17,7 +19,7 @@ const PartnerSection = () => {
       <div className="container mx-auto flex flex-col items-center justify-center mb-4">
         <h2 className="h2 text-center mb-8">Our Partners</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-8 gap-4">
           {partners.map((item) => (
             <div key={item} className="flex items-center justify-center">
               {/* <div className="relative w-full h-28 aspect-square border rounded-lg">
