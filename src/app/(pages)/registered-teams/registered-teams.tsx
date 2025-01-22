@@ -83,7 +83,7 @@ export const teams = {
       "Rongai Soccer Academy",
       "Insight Football Academy",
       "Ballers of God Academy",
-      "Nyalenda Sports Academy",
+      "Nyalenda Youngstars Academy",
       "Rangers Soccer Academy",
       "Young Boys Soccer Club",
       "Masters Soccer Academy",
@@ -97,7 +97,7 @@ export const teams = {
     "Under 15 Boys": [
       "Passion Soccer Academy",
       "Millennium Soccer Academy",
-      "UEFA Despanyol",
+      "UEFA Despanol SC",
       "USSA Elite Academy",
       "Malmo Sports Academy",
       "Elman Football Club",
@@ -109,7 +109,7 @@ export const teams = {
       "Insight Football Academy",
       "Ballers of God Academy",
       "Jaoko Wellness Club",
-      "Nyalenda Sports Academy",
+      "Nyalenda Youngstars Academy",
       "Rangers Soccer Academy",
       "Young Boys Soccer Club",
       "Masters Soccer Academy",
@@ -122,7 +122,7 @@ export const teams = {
       "Kuza Soccer Academy",
     ],
     "Under 17 Boys": [
-      "Uefa Despanyol",
+      "UEFA Despanol SC",
       "USSA Elite Academy",
       "Faces Sports Academy",
       "Rongai Soccer Academy",
@@ -139,7 +139,7 @@ export const teams = {
     ],
     "Under 20 Boys": [
       "Karatina Football Club",
-      "UEFA Despanyol",
+      "UEFA Despanol SC",
       "Westrand Football Academy",
       "Royal Soccer Academy",
       "Powergen Football Club",
@@ -148,6 +148,7 @@ export const teams = {
     "Under 13 Girls": ["Lucky Stars Football Academy"],
     "Under 15 Girls": [
       "Lucky Stars Football Academy",
+      "Nyalenda Youngstars Academy",
       "IBG Sports Academy",
       "Cheza Sports Academy",
     ],

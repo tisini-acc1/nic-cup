@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto, Oswald } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import "./globals.css";
 import { AppWrapper } from "@/context";
@@ -32,6 +33,7 @@ export default function RootLayout({
         className={`${roboto.variable} ${oswald.variable} w-full max-w-[1920px] mx-auto bg-white`}
       >
         <AppWrapper>{children}</AppWrapper>
+        <GoogleAnalytics gaId={"G-QX6SNPN0QY"} />
       </body>
     </html>
   );
