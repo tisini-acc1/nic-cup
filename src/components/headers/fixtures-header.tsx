@@ -61,7 +61,7 @@ const FixturesHeader = () => {
           <Link href={"/guidelines"}></Link>
         </button> */}
 
-        <RegisterButton />
+        {/* <RegisterButton /> */}
       </div>
     </nav>
   );

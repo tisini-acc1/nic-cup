@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Itim } from "next/font/google";
 
 import Timer from "@/components/timer/timer";
-import { RegisterButton } from "@/components/buttons/register-button";
+// import { RegisterButton } from "@/components/buttons/register-button";
 // import { CustomImage } from "@/components/custom-image";
 // import { CustomButton } from "@/components/custom-button";
 
@@ -38,7 +38,7 @@ export const HeroSection = () => {
               <Link href={"/guidelines"}>Registration Guidelines</Link>
             </button>
 
-            <RegisterButton />
+            {/* <RegisterButton /> */}
           </div>
 
           <Timer launchDate="2025-08-01T07:00:00" />

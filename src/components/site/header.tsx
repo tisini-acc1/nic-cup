@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { Link as ScrollLink } from "react-scroll";
-import { RegisterButton } from "../buttons/register-button";
+// import { RegisterButton } from "../buttons/register-button";
 
 export const SiteHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -68,7 +68,7 @@ export const SiteHeader = () => {
             2025 Guidelines
           </Link>
 
-          <RegisterButton />
+          {/* <RegisterButton /> */}
         </div>
       </div>
 
@@ -115,7 +115,7 @@ export const SiteHeader = () => {
           <button className="text-black hover:bg-lime-400 px-4 py-2 border rounded-lg font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex">
             <Link href={"/guidelines"}>2025 Guidelines</Link>
           </button>
-          <RegisterButton />
+          {/* <RegisterButton /> */}
         </div>
       </div>
     </nav>
